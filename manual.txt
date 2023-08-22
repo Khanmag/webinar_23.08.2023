@@ -1,6 +1,13 @@
-test text format
 
-.temp_wrappper {
+Работа на вебинаре будет проводиться на сайте https://codesandbox.io
+Вам нужно зарегистрироваться любым удобным способом и нажать на кнопку "New sandbox"
+Вам предложат выбор шаблона, выберите "React"
+
+Вуаля, вы великолепны. У ваc есть React проект с папкой "src" и тремя файлами в ней (index.js, app.js, style.css)
+
+Следующий код следует скопировать и вставить в файл style.css, чтобы сэкономить время.
+
+.temp_wrapper {
   flex-direction: column;
   margin: 10px auto;
   background-color: rgb(66, 66, 66);
@@ -8,17 +15,17 @@ test text format
   border-radius: 15px;
 }
 .temp_btn_wrapper,
-.temp_wrappper {
+.temp_wrapper {
   display: flex;
   width: 100px;
   align-items: center;
   justify-content: space-evenly;
 }
-.temp_wrappper > p,
+.temp_wrapper > p,
 button {
   border-radius: 50%;
 }
-.temp_wrappper > p {
+.temp_wrapper > p {
   width: 100%;
   height: 100px;
   text-align: center;
